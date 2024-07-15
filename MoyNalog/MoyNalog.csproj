@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>TDV.MoyNalog</Title>
+    <Authors>TrifonovDV</Authors>
+    <Description>Библиотека для работы с личным кабинетом самозанятого</Description>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>

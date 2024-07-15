@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "MoyNalog.Tests": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "inn": "",
+        "passw": ""
+      }
+    }
+  }
+}
