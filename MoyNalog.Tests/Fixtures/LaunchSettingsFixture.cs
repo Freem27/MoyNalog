@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace MoyNalog.Tests.Fixtures;
+namespace TDV.MoyNalog.Tests.Fixtures;
 
 public class LaunchSettingsFixture : IDisposable
 {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoyNalog", "MoyNalog\MoyNalog.csproj", "{7D38DD46-2E3F-467E-AD7F-E5A0EC557819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDV.MoyNalog", "MoyNalog\TDV.MoyNalog.csproj", "{7D38DD46-2E3F-467E-AD7F-E5A0EC557819}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoyNalog.Tests", "MoyNalog.Tests\MoyNalog.Tests.csproj", "{C5C7300D-AE54-4BD0-9B01-539822A08949}"
 	ProjectSection(ProjectDependencies) = postProject

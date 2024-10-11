@@ -1,6 +1,6 @@
-using MoyNalog.Enums;
-using MoyNalog.Models;
-using MoyNalog.Tests.Helpers;
+using TDV.MoyNalog.Enums;
+using TDV.MoyNalog.Models;
+using TDV.MoyNalog.Tests.Helpers;
 
 namespace TDV.MoyNalog.Tests
 {

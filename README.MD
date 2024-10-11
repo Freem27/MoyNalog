@@ -11,6 +11,11 @@
 
 ## Настройка
 ```csharp
+using TDV.MoyNalog;
+using TDV.MoyNalog.Models;
+using TDV.MoyNalog.Enums;
+
+
 var client = new MoyNalog("inn", "passw")
 ```
 где ```inn``` - Ваш ИНН

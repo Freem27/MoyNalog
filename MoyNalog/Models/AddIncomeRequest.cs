@@ -1,6 +1,6 @@
-﻿using MoyNalog.Enums;
+﻿using TDV.MoyNalog.Enums;
 
-namespace MoyNalog.Models;
+namespace TDV.MoyNalog.Models;
 
 public class AddIncomeRequest
 {

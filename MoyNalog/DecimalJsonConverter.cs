@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 using System.Text.Json;
-namespace MoyNalog;
+namespace TDV.MoyNalog;
 
 public class DecimalJsonConverter : JsonConverter<decimal>
 {

@@ -1,4 +1,4 @@
-﻿namespace MoyNalog.Models;
+﻿namespace TDV.MoyNalog.Models;
 
 public class CancellationInfo
 {

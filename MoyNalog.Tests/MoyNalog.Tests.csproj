@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MoyNalog\MoyNalog.csproj" />
+    <ProjectReference Include="..\MoyNalog\TDV.MoyNalog.csproj" />
   </ItemGroup>
 
   <ItemGroup>

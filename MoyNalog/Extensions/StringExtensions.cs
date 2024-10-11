@@ -1,4 +1,4 @@
-﻿namespace MoyNalog.Extensions;
+﻿namespace TDV.MoyNalog.Extensions;
 
 public static class StringExtensions
 {

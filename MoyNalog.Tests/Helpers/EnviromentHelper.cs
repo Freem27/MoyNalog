@@ -1,4 +1,4 @@
-﻿namespace MoyNalog.Tests.Helpers;
+﻿namespace TDV.MoyNalog.Tests.Helpers;
 
 public static class EnviromentHelper
 {

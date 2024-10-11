@@ -1,9 +1,8 @@
-﻿using Microsoft.VisualBasic.FileIO;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.Serialization;
 using System.Web;
 
-namespace MoyNalog.Extensions;
+namespace TDV.MoyNalog.Extensions;
 
 public static class ObjectExtensions
 {

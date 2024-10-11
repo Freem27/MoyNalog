@@ -1,12 +1,11 @@
 ﻿using static System.Net.Mime.MediaTypeNames;
 using System.Text.Json;
 using System.Text;
-using MoyNalog.Models;
+using TDV.MoyNalog.Models;
 using System.Runtime.CompilerServices;
 using System.Net.Http.Headers;
-using MoyNalog.Enums;
-using MoyNalog.Extensions;
-using MoyNalog;
+using TDV.MoyNalog.Enums;
+using TDV.MoyNalog.Extensions;
 
 [assembly: InternalsVisibleTo("MoyNalog.Tests")]
 namespace TDV.MoyNalog
@@ -105,7 +104,7 @@ namespace TDV.MoyNalog
 
         public string GetRecipietUrl(string receiptUuid)
         {
-            return $"{ApiUrl}/receipt/{_user}/{receiptUuid}/ print";
+            return $"{ApiUrl}/receipt/{_user}/{receiptUuid}/print";
         }
 
         public async Task<Income> GetRecipiet(string receiptUuid)
@@ -141,7 +140,7 @@ namespace TDV.MoyNalog
             var body = await resp.Content.ReadAsStringAsync();
             return JsonSerializer.Deserialize<T>(body, new JsonSerializerOptions { PropertyNameCaseInsensitive = true })
                 ?? throw new ApplicationException("unable to deserialize");
-        }        
+        }
 
         private object DeviceInfo => new
         {
